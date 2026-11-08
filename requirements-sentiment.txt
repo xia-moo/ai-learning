@@ -1,0 +1,9 @@
+# Observed direct dependencies, 2026-11-06; Python 3.12.15.
+# Existing environment: AIDocsAgent_py312. Fresh installation not verified.
+# Checkpoints and cached Hugging Face tokenizer/config are required separately.
+torch==2.15.0
+transformers==5.22.1
+scikit-learn==1.9.1
+fastapi==0.143.0
+uvicorn==0.54.0
+pydantic==2.14.1

@@ -1,0 +1,24 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+.vscode/
+
+# Model weights and downloaded caches (kept locally)
+*.pt
+*.pth
+*.safetensors
+*.onnx
+.cache/
+
+# Generated runtime summaries
+batch_summary.json
+batch_summary_history.jsonl
+*.log

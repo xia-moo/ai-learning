@@ -1,0 +1,225 @@
+{
+  "dataset_role": "development",
+  "samples": [
+    {
+      "text": "我对这次购物很满意",
+      "true_label": "正面",
+      "prediction": {
+        "text": "我对这次购物很满意",
+        "label": "正面",
+        "probabilities": {
+          "负面": 0.00032790398108772933,
+          "中性": 7.234798249555752e-05,
+          "正面": 0.9995997548103333
+        },
+        "max_length": 64,
+        "original_token_count": 11,
+        "input_token_count": 11,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "自动通过",
+        "reason": "正面概率达到阈值"
+      }
+    },
+    {
+      "text": "这个功能不好用",
+      "true_label": "负面",
+      "prediction": {
+        "text": "这个功能不好用",
+        "label": "负面",
+        "probabilities": {
+          "负面": 0.972520649433136,
+          "中性": 0.0002968364569824189,
+          "正面": 0.027182525023818016
+        },
+        "max_length": 64,
+        "original_token_count": 9,
+        "input_token_count": 9,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "转人工审核",
+        "reason": "正面概率未达到阈值"
+      }
+    },
+    {
+      "text": "我买的是白色版本",
+      "true_label": "中性",
+      "prediction": {
+        "text": "我买的是白色版本",
+        "label": "中性",
+        "probabilities": {
+          "负面": 0.03782141953706741,
+          "中性": 0.9545860290527344,
+          "正面": 0.007592593785375357
+        },
+        "max_length": 64,
+        "original_token_count": 10,
+        "input_token_count": 10,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "转人工审核",
+        "reason": "正面概率未达到阈值"
+      }
+    },
+    {
+      "text": "好用",
+      "true_label": "正面",
+      "prediction": {
+        "text": "好用",
+        "label": "正面",
+        "probabilities": {
+          "负面": 0.010298684239387512,
+          "中性": 0.0026424047537148,
+          "正面": 0.9870589375495911
+        },
+        "max_length": 64,
+        "original_token_count": 4,
+        "input_token_count": 4,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "自动通过",
+        "reason": "正面概率达到阈值"
+      }
+    },
+    {
+      "text": "外观很好看，但是用了两天就坏了。",
+      "true_label": "负面",
+      "prediction": {
+        "text": "外观很好看，但是用了两天就坏了。",
+        "label": "负面",
+        "probabilities": {
+          "负面": 0.9939320087432861,
+          "中性": 0.0010797289432957768,
+          "正面": 0.0049883038736879826
+        },
+        "max_length": 64,
+        "original_token_count": 18,
+        "input_token_count": 18,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "转人工审核",
+        "reason": "正面概率未达到阈值"
+      }
+    },
+    {
+      "text": "这个产品让我失望。",
+      "true_label": "负面",
+      "prediction": {
+        "text": "这个产品让我失望。",
+        "label": "负面",
+        "probabilities": {
+          "负面": 0.9952270984649658,
+          "中性": 0.001071919105015695,
+          "正面": 0.003701042151078582
+        },
+        "max_length": 64,
+        "original_token_count": 11,
+        "input_token_count": 11,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "转人工审核",
+        "reason": "正面概率未达到阈值"
+      }
+    },
+    {
+      "text": "这个产品并没有让我失望。",
+      "true_label": "正面",
+      "prediction": {
+        "text": "这个产品并没有让我失望。",
+        "label": "正面",
+        "probabilities": {
+          "负面": 0.00209516822360456,
+          "中性": 0.0008456283831037581,
+          "正面": 0.9970592260360718
+        },
+        "max_length": 64,
+        "original_token_count": 14,
+        "input_token_count": 14,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "自动通过",
+        "reason": "正面概率达到阈值"
+      }
+    },
+    {
+      "text": "包装里没有附赠电池。",
+      "true_label": "中性",
+      "prediction": {
+        "text": "包装里没有附赠电池。",
+        "label": "中性",
+        "probabilities": {
+          "负面": 0.15273980796337128,
+          "中性": 0.8413267135620117,
+          "正面": 0.005933539941906929
+        },
+        "max_length": 64,
+        "original_token_count": 12,
+        "input_token_count": 12,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "转人工审核",
+        "reason": "正面概率未达到阈值"
+      }
+    },
+    {
+      "text": "商家没有解决故障，我很不满意。",
+      "true_label": "负面",
+      "prediction": {
+        "text": "商家没有解决故障，我很不满意。",
+        "label": "负面",
+        "probabilities": {
+          "负面": 0.9850509166717529,
+          "中性": 0.0004412590933497995,
+          "正面": 0.014507755637168884
+        },
+        "max_length": 64,
+        "original_token_count": 17,
+        "input_token_count": 17,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "转人工审核",
+        "reason": "正面概率未达到阈值"
+      }
+    },
+    {
+      "text": "原本担心会卡顿，实际使用没有这个问题，很流畅。",
+      "true_label": "正面",
+      "prediction": {
+        "text": "原本担心会卡顿，实际使用没有这个问题，很流畅。",
+        "label": "正面",
+        "probabilities": {
+          "负面": 0.04024374112486839,
+          "中性": 0.004154257941991091,
+          "正面": 0.9556019902229309
+        },
+        "max_length": 64,
+        "original_token_count": 25,
+        "input_token_count": 25,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "自动通过",
+        "reason": "正面概率达到阈值"
+      }
+    }
+  ]
+}

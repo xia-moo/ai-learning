@@ -1,0 +1,282 @@
+{
+  "dataset_description": "人工编写的新增检查样例，固定配置评估",
+  "dataset_sha256": "250415f52bfa49d3f7fdcb25e1eef2df7e6f37791d688f03bdb531e671a3033b",
+  "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+  "metrics": {
+    "total": 12,
+    "correct": 12,
+    "accuracy": 1.0,
+    "auto_count": 4,
+    "auto_rate": 0.3333333333333333,
+    "auto_precision": 1.0,
+    "positive_auto_recall": 1.0,
+    "false_passed": 0,
+    "truncated_count": 0
+  },
+  "samples": [
+    {
+      "text": "屏幕显示清晰，阅读起来很舒服。",
+      "true_label": "正面",
+      "prediction": {
+        "text": "屏幕显示清晰，阅读起来很舒服。",
+        "label": "正面",
+        "probabilities": {
+          "负面": 0.0007500923238694668,
+          "中性": 0.0014665736816823483,
+          "正面": 0.997783362865448
+        },
+        "max_length": 64,
+        "original_token_count": 17,
+        "input_token_count": 17,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "自动通过",
+        "reason": "正面概率达到阈值"
+      }
+    },
+    {
+      "text": "安装过程很顺利，十分钟就能正常使用。",
+      "true_label": "正面",
+      "prediction": {
+        "text": "安装过程很顺利，十分钟就能正常使用。",
+        "label": "正面",
+        "probabilities": {
+          "负面": 0.001980818109586835,
+          "中性": 0.002443309873342514,
+          "正面": 0.9955759048461914
+        },
+        "max_length": 64,
+        "original_token_count": 20,
+        "input_token_count": 20,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "自动通过",
+        "reason": "正面概率达到阈值"
+      }
+    },
+    {
+      "text": "连续用了一个星期，连接一直很稳定，我很满意。",
+      "true_label": "正面",
+      "prediction": {
+        "text": "连续用了一个星期，连接一直很稳定，我很满意。",
+        "label": "正面",
+        "probabilities": {
+          "负面": 0.004622914828360081,
+          "中性": 0.0007793174590915442,
+          "正面": 0.9945977926254272
+        },
+        "max_length": 64,
+        "original_token_count": 24,
+        "input_token_count": 24,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "自动通过",
+        "reason": "正面概率达到阈值"
+      }
+    },
+    {
+      "text": "原以为会有异味，收到后没有闻到，挺满意的。",
+      "true_label": "正面",
+      "prediction": {
+        "text": "原以为会有异味，收到后没有闻到，挺满意的。",
+        "label": "正面",
+        "probabilities": {
+          "负面": 0.029831871390342712,
+          "中性": 0.0012610676931217313,
+          "正面": 0.9689069986343384
+        },
+        "max_length": 64,
+        "original_token_count": 23,
+        "input_token_count": 23,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "自动通过",
+        "reason": "正面概率达到阈值"
+      }
+    },
+    {
+      "text": "按键总是失灵，实在影响使用。",
+      "true_label": "负面",
+      "prediction": {
+        "text": "按键总是失灵，实在影响使用。",
+        "label": "负面",
+        "probabilities": {
+          "负面": 0.9853626489639282,
+          "中性": 0.005439198110252619,
+          "正面": 0.009198215790092945
+        },
+        "max_length": 64,
+        "original_token_count": 16,
+        "input_token_count": 16,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "转人工审核",
+        "reason": "正面概率未达到阈值"
+      }
+    },
+    {
+      "text": "宣传说能用一整天，实际两小时就没电了，太失望了。",
+      "true_label": "负面",
+      "prediction": {
+        "text": "宣传说能用一整天，实际两小时就没电了，太失望了。",
+        "label": "负面",
+        "probabilities": {
+          "负面": 0.9494878053665161,
+          "中性": 0.03334910422563553,
+          "正面": 0.017163120210170746
+        },
+        "max_length": 64,
+        "original_token_count": 26,
+        "input_token_count": 26,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "转人工审核",
+        "reason": "正面概率未达到阈值"
+      }
+    },
+    {
+      "text": "维修后还是无法开机，这次处理让我很不满。",
+      "true_label": "负面",
+      "prediction": {
+        "text": "维修后还是无法开机，这次处理让我很不满。",
+        "label": "负面",
+        "probabilities": {
+          "负面": 0.9947912693023682,
+          "中性": 0.0005320015479810536,
+          "正面": 0.004676801152527332
+        },
+        "max_length": 64,
+        "original_token_count": 22,
+        "input_token_count": 22,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "转人工审核",
+        "reason": "正面概率未达到阈值"
+      }
+    },
+    {
+      "text": "虽然颜色漂亮，但边缘很锋利，用着不安全。",
+      "true_label": "负面",
+      "prediction": {
+        "text": "虽然颜色漂亮，但边缘很锋利，用着不安全。",
+        "label": "负面",
+        "probabilities": {
+          "负面": 0.9268085360527039,
+          "中性": 0.023445237427949905,
+          "正面": 0.049746323376894
+        },
+        "max_length": 64,
+        "original_token_count": 22,
+        "input_token_count": 22,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "转人工审核",
+        "reason": "正面概率未达到阈值"
+      }
+    },
+    {
+      "text": "接口位于机身左侧。",
+      "true_label": "中性",
+      "prediction": {
+        "text": "接口位于机身左侧。",
+        "label": "中性",
+        "probabilities": {
+          "负面": 0.00045732976286672056,
+          "中性": 0.9970689415931702,
+          "正面": 0.0024736810009926558
+        },
+        "max_length": 64,
+        "original_token_count": 11,
+        "input_token_count": 11,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "转人工审核",
+        "reason": "正面概率未达到阈值"
+      }
+    },
+    {
+      "text": "随箱清单列出了主机和两根连接线。",
+      "true_label": "中性",
+      "prediction": {
+        "text": "随箱清单列出了主机和两根连接线。",
+        "label": "中性",
+        "probabilities": {
+          "负面": 0.002186696045100689,
+          "中性": 0.9954236149787903,
+          "正面": 0.002389705739915371
+        },
+        "max_length": 64,
+        "original_token_count": 18,
+        "input_token_count": 18,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "转人工审核",
+        "reason": "正面概率未达到阈值"
+      }
+    },
+    {
+      "text": "这个型号不支持无线连接。",
+      "true_label": "中性",
+      "prediction": {
+        "text": "这个型号不支持无线连接。",
+        "label": "中性",
+        "probabilities": {
+          "负面": 0.04642632603645325,
+          "中性": 0.9289780855178833,
+          "正面": 0.02459552325308323
+        },
+        "max_length": 64,
+        "original_token_count": 14,
+        "input_token_count": 14,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "转人工审核",
+        "reason": "正面概率未达到阈值"
+      }
+    },
+    {
+      "text": "我在周三下午签收了包裹。",
+      "true_label": "中性",
+      "prediction": {
+        "text": "我在周三下午签收了包裹。",
+        "label": "中性",
+        "probabilities": {
+          "负面": 0.11228515207767487,
+          "中性": 0.7349439859390259,
+          "正面": 0.15277089178562164
+        },
+        "max_length": 64,
+        "original_token_count": 14,
+        "input_token_count": 14,
+        "truncated": false,
+        "inference_mode": "FP32",
+        "checkpoint_sha256": "19b645cc62112c2461733fa21fb28afc1d8d225c0c967b37338844e7688188e9",
+        "decision_threshold": 0.9,
+        "action": "转人工审核",
+        "reason": "正面概率未达到阈值"
+      }
+    }
+  ]
+}
